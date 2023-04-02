@@ -11,15 +11,7 @@ const Task = ({ task, index }) => {
           {...provided.dragHandleProps}
           ref={provided.innerRef}
         >
-            {task.content}
-          {/* <Droppable droppableId={task.id}>
-            {(provided) => (
-              <div {...provided.droppableProps} ref={provided.innerRef}>
-                {task.content}
-                {provided.placeholder}
-              </div>
-            )}
-          </Droppable> */}
+
         </div>
       )}
     </Draggable>
